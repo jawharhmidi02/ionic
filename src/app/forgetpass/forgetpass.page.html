@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-back-button text="Back"></ion-back-button>
+    </ion-buttons>
+    <ion-title>Forget Password</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-card>
+    <ion-card-content>
+      <form>
+        <ion-item
+          ><ion-input
+            placeholder="Enter Email"
+            type="email"
+            expand="block"
+            required
+          ></ion-input
+        ></ion-item>
+        <ion-row>
+          <ion-col>
+            <ion-button type="submit" color="primary" expand="block"
+              >Send
+            </ion-button>
+          </ion-col>
+        </ion-row>
+        <small>
+          Veuillez fournir le nom d'utilisateur ou l'adresse e-mail que vous
+          avez utilise lors de votre connexion
+        </small>
+      </form>
+    </ion-card-content>
+  </ion-card>
+</ion-content>

@@ -1,0 +1,74 @@
+<!-- <ion-header>
+  <ion-toolbar>
+    <ion-title>Ionic Aplication</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="auth-form">
+  <ion-grid class="ion-padding ion-text-center">
+    <ion-row>
+      <ion-col align-self-center>
+        <div class="title">
+          <h2>Bienvenue</h2>
+          <p>Class L3GLSI</p>
+        </div>
+        <ion-button [routerLink]="['/login']" expand="block">
+          <ion-label> Connexion </ion-label>
+        </ion-button>
+        <span class="divider line one-line">or</span>
+        <ion-button [routerLink]="['/signup']" fill="clear">
+          Inscription
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content> -->
+
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title> Insciption </ion-title>
+  </ion-toolbar>
+</ion-header>
+<ion-content>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-title> "Pitch Yourself For a Career" </ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+      <!-- <ion-label>
+
+      </ion-label> -->
+      Merci la;sknd;lasndaslnd
+    </ion-card-content>
+  </ion-card>
+  <ion-item>
+    <ion-input
+      type="text"
+      placeholder="Saisir votre Nom"
+      label="Nom"
+      labelPlacement="stacked"
+    />
+  </ion-item>
+  <ion-item>
+    <ion-input
+      type="text"
+      placeholder="Saisir votre Prenom"
+      label="Prenom"
+      labelPlacement="stacked"
+      [(ngModel)]="text"
+    />
+  </ion-item>
+  <ion-item>
+    <ion-input type="email" placeholder="Saisir votre Email" label="Email" />
+  </ion-item>
+  <ion-item>
+    <ion-radio-group>
+      <ion-radio value="lsi" justify="start">L-Si</ion-radio>
+      <ion-radio value="L-TIC" justify="start">L-TIC </ion-radio>
+      <ion-radio value="MP-ILC" justify="start">MP-ILC</ion-radio>
+      <ion-radio value="MP-II" justify="start">MP-II</ion-radio>
+      <ion-radio value="MR-EESC" justify="start">MR-EESC</ion-radio>
+    </ion-radio-group>
+  </ion-item>
+  <ion-button fill="outline" expand="block" (click)="submit()"> Valider </ion-button>
+</ion-content>
